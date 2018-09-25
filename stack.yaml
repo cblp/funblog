@@ -1,12 +1,7 @@
-flags: {}
-packages:
-  - '.'
-  - location:
-      git: https://github.com/agrafix/Spock-digestive.git
-      commit: 4c85647427e21bbaefbf04c4bc315d4bdfabba0e
-    extra-dep: true
+resolver: lts-9.21
+
 extra-deps:
-  - digestive-functors-0.8.2.0
+  - Spock-digestive-0.3.0.0
+  - digestive-functors-0.8.4.0
   - digestive-bootstrap-0.3.0.0
-  - digestive-functors-blaze-0.6.1.0
-resolver: lts-8.12
+  - digestive-functors-blaze-0.6.2.0
